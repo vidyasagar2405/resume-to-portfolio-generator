@@ -88,8 +88,19 @@ python -m streamlit run main.py
 * End-to-end GenAI project workflow
 
 ---
+
 ## Visit Generated Portfolio 
 
-[portfolio](https://vidyasagar2405.github.io/langchain-streamlit-Automated-Resume-to-Portfolio-Generator/)
+[portfolio link](https://vidyasagar2405.github.io/langchain-streamlit-Automated-Resume-to-Portfolio-Generator/)
+
+---
+
+## Generated Portfolio Interface
+<img width="1470" height="956" alt="Resume to Portfolio snapshot" src="https://github.com/user-attachments/assets/79eb9fa6-e35f-43ac-9093-1994689e3fc4" />
+
+---
+
+## Demo Video
+[Youtube](https://youtu.be/d1UapWKGG_o)
 
 ---
