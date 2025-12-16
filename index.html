@@ -1,0 +1,246 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>VIDYA SAGAR EMPELLY - Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="header">
+        <div class="container">
+            <nav class="navbar">
+                <a href="#" class="logo">VIDYA SAGAR</a>
+                <ul class="nav-links">
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#skills">Skills</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#education">Education</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+                <button id="theme-toggle" class="theme-toggle">
+                    <span class="icon-moon">🌙</span>
+                    <span class="icon-sun">☀️</span>
+                </button>
+            </nav>
+        </div>
+    </header>
+
+    <section id="about" class="hero-section">
+        <div class="container">
+            <div class="hero-content">
+                <h1>VIDYA SAGAR EMPELLY</h1>
+                <p class="objective-text">
+                    Motivated Computer Science Engineering graduate specializing in Data Science, with strong skills in Python, NumPy, Pandas, PyTorch, SQL, Power BI, OpenCV, and n8n. Hands-on Experience in data preprocessing, exploratory analysis, building interactive dashboards, writing SQL queries, and automating workflows using n8n. Seeking an opportunity to apply analytical thinking and problem-solving abilities to real-world projects, contribute to impactful data-driven solutions, and continually grow in AI and Data Science.
+                </p>
+                <div class="hero-links">
+                    <a href="https://www.linkedin.com/in/vidyasagar2405" target="_blank" class="button primary-button">LinkedIn</a>
+                    <a href="https://github.com/vidyasagar2405" target="_blank" class="button secondary-button">GitHub</a>
+                </div>
+            </div>
+            <div class="hero-image">
+                <svg viewBox="0 0 100 100" class="data-science-visual">
+                    <circle cx="50" cy="50" r="40" fill="var(--accent-color)" opacity="0.1"></circle>
+                    <circle cx="50" cy="50" r="20" fill="var(--accent-color)" opacity="0.2"></circle>
+                    <line x1="20" y1="50" x2="80" y2="50" stroke="var(--accent-color)" stroke-width="2"></line>
+                    <line x1="50" y1="20" x2="50" y2="80" stroke="var(--accent-color)" stroke-width="2"></line>
+                    <circle cx="20" cy="50" r="3" fill="var(--accent-color)"></circle>
+                    <circle cx="50" cy="20" r="3" fill="var(--accent-color)"></circle>
+                    <circle cx="80" cy="50" r="3" fill="var(--accent-color)"></circle>
+                    <circle cx="50" cy="80" r="3" fill="var(--accent-color)"></circle>
+                    <circle cx="35" cy="35" r="3" fill="var(--accent-color)"></circle>
+                    <circle cx="65" cy="65" r="3" fill="var(--accent-color)"></circle>
+                </svg>
+            </div>
+        </div>
+    </section>
+
+    <section id="skills" class="skills-section section-padding">
+        <div class="container">
+            <h2 class="section-title">SKILLS</h2>
+            <div class="skills-grid">
+                <div class="skill-category">
+                    <h3>Programming Languages</h3>
+                    <ul>
+                        <li>Python</li>
+                        <li>C</li>
+                    </ul>
+                </div>
+                <div class="skill-category">
+                    <h3>Python Libraries</h3>
+                    <ul>
+                        <li>NumPy</li>
+                        <li>Pandas</li>
+                        <li>PyTorch</li>
+                        <li>Matplotlib</li>
+                        <li>Seaborn</li>
+                    </ul>
+                </div>
+                <div class="skill-category">
+                    <h3>Visualization Tools</h3>
+                    <ul>
+                        <li>Power BI</li>
+                        <li>MS Excel</li>
+                    </ul>
+                </div>
+                <div class="skill-category">
+                    <h3>Databases</h3>
+                    <ul>
+                        <li>SQL</li>
+                        <li>MySQL</li>
+                    </ul>
+                </div>
+                <div class="skill-category">
+                    <h3>Image & Video Processing</h3>
+                    <ul>
+                        <li>OpenCV</li>
+                    </ul>
+                </div>
+                <div class="skill-category">
+                    <h3>Tools & Frameworks</h3>
+                    <ul>
+                        <li>Visual Studio Code</li>
+                        <li>Google Colab</li>
+                        <li>Jupyter notebook</li>
+                    </ul>
+                </div>
+                <div class="skill-category">
+                    <h3>Automation Tools</h3>
+                    <ul>
+                        <li>n8n</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="projects" class="projects-section section-padding">
+        <div class="container">
+            <h2 class="section-title">PROJECTS & WORKFLOW</h2>
+            <div class="project-tabs">
+                <button class="tab-button active" data-category="pandas-numpy">Pandas & NumPy</button>
+                <button class="tab-button" data-category="powerbi">Power BI</button>
+                <button class="tab-button" data-category="opencv">OpenCV</button>
+                <button class="tab-button" data-category="n8n">n8n</button>
+            </div>
+            <div class="project-content">
+                <div id="pandas-numpy" class="project-category-content active">
+                    <h3>Pandas & NumPy Projects</h3>
+                    <ul>
+                        <li>Performed end-to-end data preparation and analysis on multiple datasets, including Iris and Titanic—covering data cleaning, handling missing values, feature engineering, statistical analysis, and generating detailed EDA reports.</li>
+                        <li>Extracted meaningful insights using Pandas, NumPy, Matplotlib, and Seaborn to support data-driven decision-making.</li>
+                    </ul>
+                </div>
+                <div id="powerbi" class="project-category-content">
+                    <h3>Power BI Projects</h3>
+                    <ul>
+                        <li>Designed and deployed interactive dashboards by transforming raw, unstructured data into clean analytical models using Power Query and DAX.</li>
+                        <li>Developed insights-driven reports for Sales, Superstore, Diabetes, HR datasets, and Blinkit business analysis—enabling data storytelling, KPI tracking, and visual-driven decision-making.</li>
+                    </ul>
+                </div>
+                <div id="opencv" class="project-category-content">
+                    <h3>OpenCV Projects</h3>
+                    <ul>
+                        <li>Built multiple computer vision applications using OpenCV, implementing image preprocessing, contour detection, color space transformations, and motion tracking.</li>
+                        <li>Developed real-time systems such as a paint application, ROI-based static & dynamic motion detection, and a facial beautification tool to demonstrate practical CV problem-solving.</li>
+                    </ul>
+                </div>
+                <div id="n8n" class="project-category-content">
+                    <h3>n8n Projects</h3>
+                    <ul>
+                        <li>Designed and automated complex workflows and AI-driven systems using n8n, integrating APIs, LLMs, webhooks, and databases.</li>
+                        <li>Built production-ready systems including:
+                            <ul>
+                                <li>Single & Multi-User Telegram Chatbots for automated interactions.</li>
+                                <li>Resume ATS Checker: extracted score, append to Sheets and Notified with email.</li>
+                                <li>Smart Query Routing System for auto-directing user queries to relevant workflows.</li>
+                                <li>AI-Driven Assignment Evaluation & Scoring System using LLM-based evaluation.</li>
+                                <li>Language Translation App using n8n + Streamlit for multi-language text translation.</li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="achievements" class="achievements-section section-padding">
+        <div class="container">
+            <h2 class="section-title">ACHIEVEMENTS AND CERTIFICATIONS</h2>
+            <div class="achievements-list">
+                <div class="achievement-item">
+                    <h3>IR4.0 Foundation Certification</h3>
+                    <p>Participated in the IR4.0 Foundation certification, course under TechSaksham a CSR initiative by Microsoft and SAP implemented by Edunet Foundation.</p>
+                </div>
+                <div class="achievement-item">
+                    <h3>Data Analytics Job Simulation Certification from Deloitte</h3>
+                    <p>Used Microsoft Excel to classify data and draw business conclusions and Created a Dashboard using Tableau.</p>
+                </div>
+                <div class="achievement-item">
+                    <h3>PYTHON and POWERBI Certifications from Infosys and Innomatics Research Labs</h3>
+                    <p>Learned the fundamentals of python, including key algorithms and data processing techniques.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="education" class="education-section section-padding">
+        <div class="container">
+            <h2 class="section-title">EDUCATION</h2>
+            <div class="education-timeline">
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <h3>Bachelor of Technology (B.Tech) - Computer Science and Engineering (DATA SCIENCE)</h3>
+                        <p>JNTUH University, Vaagdevi Engineering College, Bollikunta, Warangal.</p>
+                        <p>CGPA: 6.7</p>
+                        <span class="timeline-date">2021 – 2025</span>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <h3>Higher Secondary Education (Intermediate) - MPC</h3>
+                        <p>Telangana State Model Junior College, Zaffargadh, Jangaon.</p>
+                        <p>CGPA: 9.6</p>
+                        <span class="timeline-date">2019 – 2021</span>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <h3>Secondary Education (High School)</h3>
+                        <p>Telangana State Model School, Zaffargadh, Jangaon.</p>
+                        <p>CGPA: 9.5</p>
+                        <span class="timeline-date">2019</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="contact-section section-padding">
+        <div class="container">
+            <h2 class="section-title">CONTACT</h2>
+            <div class="contact-info">
+                <p><strong>Email:</strong> <a href="mailto:vidyasagar2405@gmail.com">vidyasagar2405@gmail.com</a></p>
+                <p><strong>Phone:</strong> +91 6300458508</p>
+                <p><strong>Location:</strong> Hyderabad, Telangana, India</p>
+            </div>
+            <div class="contact-social-links">
+                <a href="https://www.linkedin.com/in/vidyasagar2405" target="_blank" class="button primary-button">LinkedIn</a>
+                <a href="https://github.com/vidyasagar2405" target="_blank" class="button secondary-button">GitHub</a>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2024 VIDYA SAGAR EMPELLY. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
